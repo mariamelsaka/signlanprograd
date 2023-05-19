@@ -1,0 +1,34 @@
+*{
+    font-family: cairo;
+}
+.subAdmin{
+}
+div span img{
+    width: 30%;
+    height:30%;
+    margin:  5%;
+}
+
+.subAdmin  .info{
+    display: inline-block;
+    color: black;
+    
+}
+@media screen  and (max-width: 668px) {
+    div span img{
+    display: block;
+    width: 40%;
+    height:40%;
+    transform:translateY(5%) ;
+    -webkit-transform:translateY(5%) ;
+    -moz-transform:translateY(5%) ;
+    -ms-transform:translateY(5%) ;
+    -o-transform:translateY(5%) ;
+}
+    .subAdmin  .info{
+        padding-right: 8%;
+        padding-bottom: 5%;
+
+    }
+
+}

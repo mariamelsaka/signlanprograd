@@ -1,0 +1,70 @@
+*{
+    font-family: cairo;
+    padding: 0;
+    margin: 0;
+}
+/* background */
+.backgroundRegister{
+    background-image: url('../images/imagesSide/backgroundResgisterNew.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 105%;
+    color: black;
+    padding-top: 5%;
+overflow: hidden;}
+/* form */
+.card-body h5{
+    font-weight:600;
+}
+.form-check label{
+    float: left;
+}
+.form-check{
+    float:right ;
+    margin-bottom: 20px;
+}
+.form-check input{
+    float: right;
+    
+}
+/* Responsive */
+
+@media screen and (min-width: 401px) and (max-width: 768px) {
+    .backgroundRegister {
+        background-image: url('../images/imagesSide/backgroundTablet.jpg');
+        background-color: #e4e2e6;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        color: black;
+        padding-bottom: 5%;
+    }
+    .card-body h4 {
+        margin-top: 750px;
+        font-size: 900;
+    }
+}
+@media screen and (max-width: 400px) {
+    .backgroundRegister {
+        background-image: url('../images/imagesSide/backgroundphone.jpg');
+        background-color: #e4e2e6;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        color: black;
+        padding-top: 30%;
+        padding-bottom: 5%;
+    }
+    .card-body h4 {
+        margin-top: 400px;
+    }
+
+}

@@ -1,0 +1,48 @@
+body{
+    font-family: cairo;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.backgroundElementVideo iframe{
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 160vh;
+background-color: rgba(64, 64, 64, 0.4);
+
+}
+.displayInfo iframe{
+    width: 100%;
+    height: 81vh;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+}
+.layer {
+    position: absolute;
+    top: 12vh;
+    left: 0;
+    width: 100%;
+    height: 161vh;
+}
+.displayInfo{
+    color: aliceblue;
+    background-color: rgba(64, 64, 64, 0.6);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.displayInfo p{
+    font-size: medium;  
+    height: 10vh;
+    overflow: auto;
+
+
+}

@@ -1,0 +1,27 @@
+body{
+    font-family: cairo;
+}
+
+div ul  {
+width: 77%;        
+}
+div ul li .logout{
+    margin-left: 20%;
+}
+nav div a .logo{
+    background-color: white;
+    padding: 6px;
+    border-radius: 3px;
+    background-image: url('../images/imagesSide/LOGO2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 50px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
